@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box !important;
+  }
+
+html{ 
+    padding: 0;
+    margin: 0;
+   /* background-color: rgba(0, 0, 0, 0.85);*/
+}
+
+body{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.bg-dark {
+
+    background-color: #343b40 !important;
+  }
+
+  .bg-info {
+
+    background-color:  #1ba1b6!important;
+  }
+
+ 
+
+  .mytext-success{
+    color: rgba(38,166,69,255) !important;
+  
+  }
+
+  .mytext-success:hover{
+    color: rgb(171, 235, 171) !important;
+  
+  }
+
+  .nav-item>a:hover{
+    background-color: rgba(255, 255, 0, 0.605);
+    color: black !important;
+  }
+
+.btn-comprar{
+  background-color: rgba(38,166,69,255);
+}
+  
+.btn-comprar:hover{
+  background-color: rgb(26, 78, 26)
+}
+
+.image-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.image-container img{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0.7;
+ }
+
+div.imagen-con-texto-titulo{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    width: 50%;
+    height: 100px;
+    text-align: right;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    
+}
+
+  .oradores{
+    width: 80%;
+    margin: auto;
+    font-size: 0.9em;
+  }
+
+ 
+
+  .destino-texto{
+    color: white;
+    background-color: grey;
+    border-left: 1px solid white;
+
+  }
+
+  .destino-texto p{
+    font-size: 0.7em;
+  }
+
+  .destino-texto button{
+    font-size: 10px;
+  }
+
+ .formulario-inscripcion{
+    width: 50%;
+    margin:  auto;
+    font-size: 0.9em;
+
+  }
+
+  .formulario-inscripcion-boton{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    background:rgba(151,200,62,255);
+    border-radius: 4px ;
+    border: none;
+  }
+
+  .formulario-inscripcion-boton:hover{
+    background-color: rgba(0, 128, 0, 0.799);
+  }
+
+  .formulario-flex-item{
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+    margin-top: 10px;
+  }
+
+  .footer {
+    background-color: rgba(29,59,73,255);
+    text-align: center !important;
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .footer ul{
+    margin: 10px;
+    /*justify-content: space-evenly*/
+    justify-content: center;
+  }
+
+  .footer a{
+    color: white;
+  }
+
+
+
+
+  @media (max-width: 992px) { 
+    div.imagen-con-texto-titulo{
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        right: 0;
+        text-align: justify;
+    
+    }
+
+    .btn{
+        width: 100%;
+        margin-left: 0 !important;
+        padding: 0;
+        margin: 0;
+
+    }
+    
+
+
+    navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+      display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .oradores{
+    width: 100%;
+    margin: auto;
+    font-size: 1.2em;
+  }
+
+  .formulario-flex-item{
+  
+    flex-direction: column;
+    flex: 100%;
+  }
+
+}
+  
