@@ -4,14 +4,14 @@
 
 html{ 
     padding: 0;
-    margin: 1px;
+    margin: 0px;
    /* background-color: rgba(0, 0, 0, 0.85);*/
 }
 
 body{
     width: 100%;
     margin: auto;
-    border: 0px solid black;
+    
 }
 
 .bg-dark {
@@ -180,7 +180,7 @@ div.imagen-con-texto-titulo{
   }
 
   .oradores{
-    width: 100%;
+    width: 95%;
     margin: auto;
     font-size: 1em;
   }
