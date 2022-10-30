@@ -129,10 +129,12 @@ div.imagen-con-texto-titulo{
 
   .formulario-comprar-boton{
     width: 100%;
+    height: 100%;
     padding: 0px;
     margin: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
     color: white;
     font-size: 1em;
     background:rgba(151,200,62,255);
@@ -151,6 +153,7 @@ div.imagen-con-texto-titulo{
     flex-direction: row;
     flex: 50%;
     margin-top: 10px;
+    align-items: center;
   }
 
   .tickets{
@@ -179,6 +182,11 @@ div.imagen-con-texto-titulo{
   }
 
 
+  .categoria-style  {    
+    padding: 0px;
+    margin-left: 10px;
+    display: flex; flex-direction: column; width: 100%;
+  }
 
 
   @media (max-width: 992px) { 
@@ -217,11 +225,26 @@ div.imagen-con-texto-titulo{
     font-size: 1em;
   }
 
-  .formulario-flex-item{
+  .formulario-flex-item {
   
     flex-direction: column;
     flex: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .categoria-style  {    
+    padding: 0px;
+    margin: 0px ;
+    margin-top: 10px;
+  }
+
+  .formulario-comprar-boton{
+ 
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
 
 }
-  

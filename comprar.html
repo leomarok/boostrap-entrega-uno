@@ -56,7 +56,7 @@
       <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-lg-3">      
 
         <div class="col">   
-            <div class="card-body border border-primary text-center m-2 p-5">
+            <div class="card-body border border-primary text-center m-2">
               <h5 class="card-title">Estudiante</h5>
               <h6 class="card-title small">Tiene un descuento</h6>
               <h6 class="card-title small">80 %</h6>
@@ -67,7 +67,7 @@
 
      
         <div class="col">   
-            <div class="card-body border border-info text-center m-2 p-5">
+            <div class="card-body border border-info text-center m-2">
               <h5 class="card-title">Trainee</h5>
               <h6 class="card-title small">Tiene un descuento</h6>
               <h6 class="card-title small">50 %</h6>
@@ -76,7 +76,7 @@
         </div>
      
         <div class="col">   
-            <div class="card-body border border-warning text-center m-2 p-5">
+            <div class="card-body border border-warning text-center m-2">
               <h5 class="card-title">Junior</h5>
               <h6 class="card-title small">Tiene un descuento</h6>
               <h6 class="card-title small">15 %</h6>
@@ -99,15 +99,12 @@
       
       <form action="#">
         
-           <div class="form-row">
-              <div class="formulario-flex-item">
+           <div class="form-row formulario-flex-item">
                 <label for="Nombre"></label>
                 <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
 
                 <label for="apellido" style="margin: 5px;"></label>
                 <input type="text" class="form-control" id="apellido" placeholder="Apellido" name="apellido">
-
-              </div>    
            </div>    
                    
            <div class="form-row" >
@@ -115,24 +112,20 @@
               <input type="email" class="form-control" id="correo" placeholder="Correo" name="correo">
            </div>
 
-           <div class="form-row" style="margin-top: 20px;">
-            <div class="formulario-flex-item">
-
-                <div class="form-group col-md-6">
+           <div class="formulario-flex-item" style="margin-top: 20px;">
+                <div style="display: flex; flex-direction: column; width: 100%;">
                   <label for="cantidad">Cantidad</label>
                   <input type="text" class="form-control" id="cantidad" placeholder="Cantidad" name="cantidad">
                 </div>
 
-                <div class="form-group col-md-6" style="padding-left: 10px;">
+                <div class="categoria-style">
                   <label for="categoria">Categoria</label>
                   <select id="categoria" class="form-control">
                     <option>Estudiante</option>
                     <option>Trainee</option>
                     <option>Junior</option>
                   </select>
-                </div>
-
-            </div>    
+                </div>  
          </div>    
 
          <div class="form-row" >
@@ -141,15 +134,11 @@
        </div>
 
 
-         <div class="form-row">
-          <div class="formulario-flex-item">
-              <div class="form-group col-md-6"">
-                <button type="submit" class="formulario-comprar-boton">Borrar</button>
-              </div>
-              <div class="form-group col-md-6" style="padding-left: 10px;">
-                <button type="submit" class="formulario-comprar-boton">Resumen</button>
-              </div>
-            </div>    
+         <div class="form-row formulario-flex-item">
+
+                <button class="formulario-comprar-boton" type="submit" >Borrar</button>
+                <button class="formulario-comprar-boton" type="submit" >Resumen</button>
+
         </div>
       </form>
     </div>
