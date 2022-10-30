@@ -245,6 +245,25 @@ div.imagen-con-texto-titulo{
     margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 0px;
+
+    
+  }
+
+
+  .tickets{
+    width: 90%;
+    margin:  auto;
+    font-size: 0.9em;
+
+  }
+
+
+  .formulario-inscripcion{
+    width: 90%;
+    margin:  auto;
+    font-size: 0.9em;
+
+
   }
 
 }
