@@ -11,6 +11,7 @@
 </head>
 
 
+
 <body>
 
   
@@ -97,7 +98,7 @@
       <p style="text-align: center; font-size:10px; font-weight: 600; padding: 0; margin-top: 5px; margin-bottom: 0;">VENTA</p>
       <p style="text-align: center; font-size:3em; font-weight: 600; padding: 0 ; margin: 0;">VALOR DE TICKET $ 200</p>
       
-      <form action="#">
+      <form id="ComprarTickets" action="">
         
            <div class="form-row formulario-flex-item">
                 <label for="Nombre"></label>
@@ -115,7 +116,19 @@
            <div class="formulario-flex-item" style="margin-top: 20px;">
                 <div style="display: flex; flex-direction: column; width: 100%;">
                   <label for="cantidad">Cantidad</label>
-                  <input type="text" class="form-control" id="cantidad" placeholder="Cantidad" name="cantidad">
+                
+                  <select id="cantidad" placeholder="Cantidad" name="cantidad" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                  </select>
                 </div>
 
                 <div class="categoria-style">
@@ -136,8 +149,8 @@
 
          <div class="form-row formulario-flex-item">
 
-                <button class="formulario-comprar-boton" type="submit" >BORRAR</button>
-                <button class="formulario-comprar-boton" type="submit" >RESUMEN</button>
+                <button id="btnBorrar" class="formulario-comprar-boton" type="submit">BORRAR</button>
+                <button id="btnResumen" class="formulario-comprar-boton" type="submit">RESUMEN</button>
 
         </div>
       </form>
@@ -177,6 +190,7 @@
     </div>
   </nav>
 
+  <script src="js/funciones.js"></script>
 
 </body>
 
