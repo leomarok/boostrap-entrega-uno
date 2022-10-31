@@ -189,6 +189,13 @@ div.imagen-con-texto-titulo{
   }
 
 
+#btnBorrar:hover{
+  background-color: rgb(255, 72, 0) ;
+
+}
+
+
+
   @media (max-width: 992px) { 
     div.imagen-con-texto-titulo{
         position: relative;

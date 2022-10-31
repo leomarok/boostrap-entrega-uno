@@ -11,7 +11,7 @@ function borrar(event) {
     document.getElementById("nombre").value = "" ;
     document.getElementById("apellido").value = "" ;
     document.getElementById("correo").value = "" ;
-    document.getElementById("cantidad").value = "" ;
+    document.getElementById("cantidad").value = "1" ;
     document.getElementById("resumen").value = "Total a Pagar : $" ;
 }
 
